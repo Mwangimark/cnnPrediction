@@ -1,0 +1,17 @@
+# Ignore the virtual environment
+neural/
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore installed packages
+*.pyc
+*.pyo
+
+# Ignore TensorFlow saved models (optional)
+saved_model/
